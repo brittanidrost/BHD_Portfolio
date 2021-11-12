@@ -918,7 +918,7 @@ table#courses {
 
 table#courses th:nth-child(1),
 table#courses td:nth-child(1) {
-  width: 35%;
+  width: 10%;
 }
 table#courses th:nth-child(2),
 table#courses td:nth-child(2) {
