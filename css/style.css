@@ -409,6 +409,19 @@ textarea.form-control {
 /* card */
 .card {
   border: 0;
+  background-color: white;
+}
+.card:hover {
+  animation-name: example;
+  animation-duration: 4s;
+  transform: translate(0, -15px);
+}
+
+@keyframes example {
+  0% {background-color: #d93644;}
+  25% {background-color: #f27979;}
+  50% {background-color: #f2dfe2;}
+  100% {background-color: #f27979;}
 }
 
 .card-header {
