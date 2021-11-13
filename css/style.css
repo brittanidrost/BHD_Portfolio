@@ -1046,3 +1046,21 @@ table#courses tbody td img {
   margin-top: -1px;
 }
 
+/***splash page text animation***/
+
+.splash-text:hover {
+  animation-name: splash;
+  background-image: -webkit-linear-gradient(92deg, #432d73, #46658c);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 6s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
